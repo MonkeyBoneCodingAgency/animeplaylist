@@ -1,4 +1,9 @@
 // content of index.js
+
+var express = require('express');
+var path = require('path');
+var bodyParser = require('body-parser');
+
 const http = require('http')
 const port = 3000
 
@@ -16,3 +21,4 @@ server.listen(port, (err) => {
 
   console.log(`server is listening on ${port}`)
 })
+

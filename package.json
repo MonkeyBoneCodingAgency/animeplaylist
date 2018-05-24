@@ -1,0 +1,19 @@
+{
+  "name": "animeplaylist",
+  "version": "1.0.0",
+  "description": "makes anime music playlist form myanimelist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonkeyBoneCodingAgency/animeplaylist.git"
+  },
+  "author": "Monkey Bone Coding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonkeyBoneCodingAgency/animeplaylist/issues"
+  },
+  "homepage": "https://github.com/MonkeyBoneCodingAgency/animeplaylist#readme"
+}
