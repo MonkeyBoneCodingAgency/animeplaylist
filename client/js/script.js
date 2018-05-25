@@ -3,11 +3,8 @@ $(document).ready(function() {
 	$("#search-button").click(function() {
 		var input = $("#search-box").val();	
         console.log(input);
-        $.ajax()({
-            type: "POST",
-            url: "localhost:3000/submitUsername",
-            data: input,
-
+        $.post("/submitUsername", input, function(data){
+            alert(data);
         });
 		// $.post("/submitUsername" [, input]);
 	});
