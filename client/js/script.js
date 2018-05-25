@@ -5,8 +5,8 @@ $(document).ready(function() {
         console.log(input);
         $.ajax()({
             type: "POST",
-            url: "/submitUsername",
-            data: JSON.stringify(input),
+            url: "localhost:3000/submitUsername",
+            data: input,
 
         });
 		// $.post("/submitUsername" [, input]);
